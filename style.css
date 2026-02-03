@@ -13,3 +13,24 @@ h1 {
 input {
   margin-top: 15px;
 }
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 16px;
+  margin-top: 14px;
+  background: white;
+}
+
+#preview {
+  max-width: 100%;
+  margin-top: 12px;
+  border-radius: 12px;
+  display: block;
+}
+
+.result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
