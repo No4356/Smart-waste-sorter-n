@@ -1,5 +1,5 @@
 // IMPORTANT: Replace this later with your Teachable Machine model link
-const MODEL_BASE_URL = "YOUR_MODEL_URL_HERE/"; 
+const MODEL_BASE_URL = "https://teachablemachine.withgoogle.com/models/EPLR2PqXM/"; 
 // Example format:
 // const MODEL_BASE_URL = "https://teachablemachine.withgoogle.com/models/XXXXXX/";
 
