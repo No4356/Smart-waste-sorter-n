@@ -11,9 +11,22 @@
   <h1>Smart Waste Sorter</h1>
   <p>Upload or take a photo of a waste item to see which bin it belongs in.</p>
 
-  <input type="file" accept="image/*">
+ <div class="card">
+  <label><b>Upload or take a photo:</b></label><br/>
+  <input id="fileInput" type="file" accept="image/*" capture="environment" />
 
-  <p><b>Result:</b> (AI result will appear here)</p>
+  <img id="preview" alt="preview" />
+
+  <div id="result" class="result">No image yet.</div>
+</div>
+
+<!-- AI scripts (needed for real photo analysis) -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+
+<!-- Your script file -->
+<script src="script.js"></script>
+
 
 </body>
 </html>
